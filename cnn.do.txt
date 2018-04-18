@@ -1,0 +1,89 @@
+vsim -gui work.ramcacheinterface
+# vsim -gui work.ramcacheinterface 
+# Start time: 00:12:18 on Apr 18,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramcacheinterface(ramcacheinterfacearch)
+# Loading work.dma(dma_arch)
+# Loading work.counter(counterarch)
+# Loading work.stridecounter(counterarch)
+# Loading work.ram(syncrama)
+# Loading work.cache2(cachearch)
+# vsim -gui work.ramcacheinterface 
+# Start time: 23:47:52 on Apr 17,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ramcacheinterface(ramcacheinterfacearch)
+# Loading work.dma(dma_arch)
+# Loading work.counter(counterarch)
+# Loading work.stridecounter(counterarch)
+# Loading work.ram(syncrama)
+# Loading work.cache2(cachearch)
+mem load -filltype value -filldata 10001000 -fillradix symbolic /ramcacheinterface/Ram/ram(1)
+mem load -filltype value -filldata 10001111 -fillradix symbolic /ramcacheinterface/Ram/ram(2)
+mem load -skip 0 -filltype inc -filldata 00000000 -fillradix symbolic -startaddress 0 -endaddress 262143 /ramcacheinterface/Ram/ram
+mem load -skip 0 -filltype inc -filldata 00000000 -fillradix symbolic -startaddress 0 -endaddress 262143 /ramcacheinterface/Ram/ram
+add wave -r /*
+add wave sim:/ramcacheinterface/*
+force -freeze sim:/ramcacheinterface/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/ramcacheinterface/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /ramcacheinterface/Ram
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /ramcacheinterface/Ram
+force -freeze sim:/ramcacheinterface/rst 0 0
+force -freeze sim:/ramcacheinterface/Start 1 0
+force -freeze sim:/ramcacheinterface/conv 1 0
+force -freeze sim:/ramcacheinterface/size 1 0
+force -freeze sim:/ramcacheinterface/stride 0 0
+force -freeze sim:/ramcacheinterface/AcceleratorOutput 10010001 0
+force -freeze sim:/ramcacheinterface/opFinished 0 0
+run
+run
+run
+run
+add list  \
+sim:/ramcacheinterface/port8
+add wave -r /*
+run

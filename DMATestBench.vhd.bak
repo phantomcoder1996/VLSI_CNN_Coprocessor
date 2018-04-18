@@ -1,0 +1,26 @@
+Library ieee;
+use ieee.std_logic_1164.all;
+
+entity DMATestBench is
+
+end entity;
+
+
+Architecture DMAArch of DMATestBench is
+
+Signal clk,rst,start,conv,size,stride,opfinished: std_logic;
+Signal AcceleratorOutput:std_logic_vector(7 downto 0);
+Signal AcceleratorWR:std_logic;
+signal port1,port2,port3,port4,port5,port6,port7,port8,port9,port10: std_logic_vector(39 downto 0);
+begin
+
+RamCache: entity work.ramCacheInterface port map(clk,rst,start,conv,size,stride,opfinished,AcceleratorOutput,AcceleratorWR,port1,port2,port3,port4,port5,port6,port7,port8,port9,port10);
+
+ 
+
+
+
+
+
+
+end DMAArch;

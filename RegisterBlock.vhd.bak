@@ -1,0 +1,32 @@
+Library ieee;
+use ieee.std_logic_1164.all;
+
+Entity RegisterBlock is
+
+Port(en: in std_logic;
+     data: in std_logic_vector(39 downto 0);
+     Port1: out std_logic_vector(7 downto  0);
+     Port2: out std_logic_vector(7 downto 0);
+     Port3: out std_logic_vector(7 downto 0);
+     Port4: out std_logic_vector(7 downto 0);
+     Port5: out std_logic_vector(7 downto 0);
+     rd:in std_logic;
+     rst:in std_logic;
+     clk: in std_logic
+	);
+end Entity;
+
+Architecture RegisterBlock_Arch of RegisterBlock is
+
+begin
+
+port1out: entity work.nbitregister generic map(n=>8) port map(data(7 downto 0),rst,clk,en,port1);
+port2out: entity work.nbitregister generic map(n=>8) port map(data(15 downto 8),rst,clk,en,port2);
+port3out: entity work.nbitregister generic map(n=>8) port map(data(23 downto 16),rst,clk,en,port3);
+port4out: entity work.nbitregister generic map(n=>8) port map(data(31 downto 24),rst,clk,en,port4);
+port5out: entity work.nbitregister generic map(n=>8) port map(data(39 downto 32),rst,clk,en,port5);
+
+
+end Architecture;
+     
+     
