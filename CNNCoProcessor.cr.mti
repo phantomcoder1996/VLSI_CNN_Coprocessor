@@ -103,15 +103,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 2
 -- Compiling entity nbitregister
 -- Compiling architecture nbitregister_architecture of nbitregister
 
-} {} {}} C:/ThirdYearSecondTerm/VLSI/Project/cache2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/ThirdYearSecondTerm/VLSI/Project/cache2.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity cache2
--- Compiling architecture cachearch of cache2
-
 } {} {}} C:/ThirdYearSecondTerm/VLSI/Project/decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/ThirdYearSecondTerm/VLSI/Project/decoder.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
 -- Loading package STANDARD
@@ -120,5 +111,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 2
 -- Loading package NUMERIC_STD
 -- Compiling entity decoder
 -- Compiling architecture decoderArchitecture of decoder
+
+} {} {}} C:/ThirdYearSecondTerm/VLSI/Project/cache2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/ThirdYearSecondTerm/VLSI/Project/cache2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cache2
+-- Compiling architecture cachearch of cache2
 
 } {} {}}
