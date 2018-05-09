@@ -8,535 +8,916 @@ z2
 !i10f 100
 cModel Technology
 dD:/arcP/ArchitectureProject-master
+Eaccelerator
+Z0 w1525866273
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dC:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor
+Z7 8C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/Accelerator.vhd
+Z8 FC:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/Accelerator.vhd
+l0
+L6
+V5_9@c<7hBI4fI`DT4@gN<1
+!s100 =QKnEj]UlKD7B`nEmRezm0
+Z9 OV;C;10.5c;63
+32
+Z10 !s110 1525881810
+!i10b 1
+Z11 !s108 1525881810.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/Accelerator.vhd|
+Z13 !s107 C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/Accelerator.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Aacceleratorarch
+R1
+R2
+R3
+R4
+R5
+DEx4 work 11 accelerator 0 22 5_9@c<7hBI4fI`DT4@gN<1
+l105
+L41
+VzKE3PB4D[n8e0M<ho`IYd3
+!s100 HdKPUN]cN_mM`35NZGZQU1
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
 Eadder
-Z0 w1513386528
-Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z3 dC:/ThirdYearSecondTerm/VLSI/Project
-Z4 8C:/ThirdYearSecondTerm/VLSI/Project/adder.vhd
-Z5 FC:/ThirdYearSecondTerm/VLSI/Project/adder.vhd
+Z16 w1513386528
+R4
+R5
+R6
+Z17 8C:/ThirdYearSecondTerm/VLSI/Project/adder.vhd
+Z18 FC:/ThirdYearSecondTerm/VLSI/Project/adder.vhd
 l0
 L4
 Vdj9<AV819^Z5<::EHPbdK3
 !s100 c93`Wfd<cHi0MD@nohgJL3
-Z6 OV;C;10.5c;63
+R9
 32
-Z7 !s110 1524085717
+Z19 !s110 1525881806
 !i10b 1
-Z8 !s108 1524085717.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/adder.vhd|
-Z10 !s107 C:/ThirdYearSecondTerm/VLSI/Project/adder.vhd|
+Z20 !s108 1525881806.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/adder.vhd|
+Z22 !s107 C:/ThirdYearSecondTerm/VLSI/Project/adder.vhd|
 !i113 1
-Z11 o-work work -2002 -explicit
-Z12 tExplicit 1 CvgOpt 0
+R14
+R15
 Aarcadder
-R1
-R2
+R4
+R5
 DEx4 work 5 adder 0 22 dj9<AV819^Z5<::EHPbdK3
 l10
 L9
 VKLdR]H98ICWHmlF1F1gUn3
 !s100 [CAT7<1Jhi3>zEoLLV7iK3
-R6
-32
-R7
-!i10b 1
-R8
 R9
-R10
+32
+R19
+!i10b 1
+R20
+R21
+R22
 !i113 1
-R11
-R12
-Ecache
-Z13 w1523991258
+R14
+R15
+Eadderpart
+Z23 w1525869628
 R1
-R2
-R3
-Z14 8C:/ThirdYearSecondTerm/VLSI/Project/Cache.vhd
-Z15 FC:/ThirdYearSecondTerm/VLSI/Project/Cache.vhd
+R4
+R5
+R6
+Z24 8C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/Adderp.vhd
+Z25 FC:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/Adderp.vhd
+l0
+L6
+Vg3DJdclCCcai`e:BK:AkJ1
+!s100 W7bo7oCU6NiGGRM^>OonM0
+R9
+32
+Z26 !s110 1525881809
+!i10b 1
+Z27 !s108 1525881809.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/Adderp.vhd|
+Z29 !s107 C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/Adderp.vhd|
+!i113 1
+R14
+R15
+Aadderpart
+R1
+R4
+R5
+DEx4 work 9 adderpart 0 22 g3DJdclCCcai`e:BK:AkJ1
+l34
+L21
+ViLmB`ZgMW3:2o=R?[DY5=1
+!s100 Z5YQ90ek[`DETi2<T`clb1
+R9
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R14
+R15
+Ecache
+Z30 w1523991258
+R4
+R5
+R6
+Z31 8C:/ThirdYearSecondTerm/VLSI/Project/Cache.vhd
+Z32 FC:/ThirdYearSecondTerm/VLSI/Project/Cache.vhd
 l0
 L4
 VfNm_K1[hdV5c=kAUUDbiF2
 !s100 4lRGfKiQ;;WF<jR6@AILV1
-R6
+R9
 32
-R7
+R19
 !i10b 1
-R8
-Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/Cache.vhd|
-Z17 !s107 C:/ThirdYearSecondTerm/VLSI/Project/Cache.vhd|
+R20
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/Cache.vhd|
+Z34 !s107 C:/ThirdYearSecondTerm/VLSI/Project/Cache.vhd|
 !i113 1
-R11
-R12
+R14
+R15
 Acachearch
-Z18 DEx4 work 12 nbitregister 0 22 7ajjWMKL2IQJ;YgCCB2<Z2
-Z19 DEx4 work 13 registerblock 0 22 ^CVhPaPn`mcJO[z]L5_f[3
-Z20 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-Z21 DEx4 work 7 decoder 0 22 :Y?RJ2eGEci52MIVbdZbj0
+Z35 DEx4 work 12 nbitregister 0 22 7ajjWMKL2IQJ;YgCCB2<Z2
+Z36 DEx4 work 13 registerblock 0 22 ^CVhPaPn`mcJO[z]L5_f[3
 R1
-R2
+Z37 DEx4 work 7 decoder 0 22 :Y?RJ2eGEci52MIVbdZbj0
+R4
+R5
 DEx4 work 5 cache 0 22 fNm_K1[hdV5c=kAUUDbiF2
 l36
 L32
 V4EAKhRJJ_IOXD?N:DAJO73
 !s100 IbI9cSiB:T:AJ@QQSh3>E1
-R6
+R9
 32
-R7
+R19
 !i10b 1
-R8
-R16
-R17
-!i113 1
-R11
-R12
-Ecache2
-Z22 w1524079971
 R20
+R33
+R34
+!i113 1
+R14
+R15
+Ecache2
+Z38 w1524079971
 R1
-R2
-R3
-Z23 8C:/ThirdYearSecondTerm/VLSI/Project/cache2.vhd
-Z24 FC:/ThirdYearSecondTerm/VLSI/Project/cache2.vhd
+R4
+R5
+R6
+Z39 8C:/ThirdYearSecondTerm/VLSI/Project/cache2.vhd
+Z40 FC:/ThirdYearSecondTerm/VLSI/Project/cache2.vhd
 l0
 L6
 VYQLYzLeMWG;NGkS4i=0oY2
 !s100 hJaT5e4hg2bRC34a@Lkc;0
-R6
+R9
 32
-Z25 !s110 1524085719
+Z41 !s110 1525881808
 !i10b 1
-Z26 !s108 1524085719.000000
-Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/cache2.vhd|
-Z28 !s107 C:/ThirdYearSecondTerm/VLSI/Project/cache2.vhd|
+Z42 !s108 1525881807.000000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/cache2.vhd|
+Z44 !s107 C:/ThirdYearSecondTerm/VLSI/Project/cache2.vhd|
 !i113 1
-R11
-R12
+R14
+R15
 Acachearch
-R20
 R1
-R2
-Z29 DEx4 work 6 cache2 0 22 YQLYzLeMWG;NGkS4i=0oY2
+R4
+R5
+DEx4 work 6 cache2 0 22 YQLYzLeMWG;NGkS4i=0oY2
 l41
 L34
 VlTOES3:nSJD<:_W3aXJoS0
 !s100 m5mgeLHENCgRHUJG9>oo>2
-R6
+R9
 32
-R25
+R41
 !i10b 1
-R26
-R27
-R28
+R42
+R43
+R44
 !i113 1
-R11
-R12
+R14
+R15
 Ecounter
-Z30 w1524003005
-R20
+Z45 w1524003005
 R1
-R2
-R3
-Z31 8C:/ThirdYearSecondTerm/VLSI/Project/counter2.vhd
-Z32 FC:/ThirdYearSecondTerm/VLSI/Project/counter2.vhd
+R4
+R5
+R6
+Z46 8C:/ThirdYearSecondTerm/VLSI/Project/counter2.vhd
+Z47 FC:/ThirdYearSecondTerm/VLSI/Project/counter2.vhd
 l0
 L6
 VmQ>_1<NU^m8lISj1:8YBb0
 !s100 <Ik4@=Tz6MIPXb4TWXebW1
-R6
+R9
 32
-R7
+R19
 !i10b 1
-R8
-Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/counter2.vhd|
-Z34 !s107 C:/ThirdYearSecondTerm/VLSI/Project/counter2.vhd|
-!i113 1
-R11
-R12
-Acounterarch
 R20
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/counter2.vhd|
+Z49 !s107 C:/ThirdYearSecondTerm/VLSI/Project/counter2.vhd|
+!i113 1
+R14
+R15
+Acounterarch
 R1
-R2
-Z35 DEx4 work 7 counter 0 22 mQ>_1<NU^m8lISj1:8YBb0
+R4
+R5
+Z50 DEx4 work 7 counter 0 22 mQ>_1<NU^m8lISj1:8YBb0
 l27
 L24
 VOB1f9MV5`e0;:62ea8QcD0
 !s100 :a`RlA50GcA:E7Jdz`Soj0
-R6
+R9
 32
-R7
+R19
 !i10b 1
-R8
-R33
-R34
-!i113 1
-R11
-R12
-Edecoder
-R0
 R20
+R48
+R49
+!i113 1
+R14
+R15
+Edecoder
+R16
 R1
-R2
-R3
-Z36 8C:/ThirdYearSecondTerm/VLSI/Project/decoder.vhd
-Z37 FC:/ThirdYearSecondTerm/VLSI/Project/decoder.vhd
+R4
+R5
+R6
+Z51 8C:/ThirdYearSecondTerm/VLSI/Project/decoder.vhd
+Z52 FC:/ThirdYearSecondTerm/VLSI/Project/decoder.vhd
 l0
 L8
 V:Y?RJ2eGEci52MIVbdZbj0
 !s100 V]7XWDRDJ3JDo`51PGEY12
-R6
+R9
 32
-Z38 !s110 1524085718
+Z53 !s110 1525881807
 !i10b 1
-Z39 !s108 1524085718.000000
-Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/decoder.vhd|
-Z41 !s107 C:/ThirdYearSecondTerm/VLSI/Project/decoder.vhd|
+R42
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/decoder.vhd|
+Z55 !s107 C:/ThirdYearSecondTerm/VLSI/Project/decoder.vhd|
 !i113 1
-R11
-R12
+R14
+R15
 Adecoderarchitecture
-R20
 R1
-R2
-R21
+R4
+R5
+R37
 l20
 L19
 VW?Gn`P1WP6oMN]KD?knL40
 !s100 kT0>M5fHUmN<MMRQLQ^2;1
-R6
+R9
 32
-R38
+R53
 !i10b 1
-R39
-R40
-R41
+R42
+R54
+R55
 !i113 1
-R11
-R12
+R14
+R15
 Edma
-Z42 w1524084020
-R20
+Z56 w1525881797
 R1
-R2
-R3
-Z43 8C:/ThirdYearSecondTerm/VLSI/Project/DMA.vhd
-Z44 FC:/ThirdYearSecondTerm/VLSI/Project/DMA.vhd
+R4
+R5
+R6
+Z57 8C:/ThirdYearSecondTerm/VLSI/Project/DMA.vhd
+Z58 FC:/ThirdYearSecondTerm/VLSI/Project/DMA.vhd
 l0
 L5
-VbScTh7[35]oQ4CaNT;2K73
-!s100 b:gGZR=m@`1kI9Mji`KO10
-R6
+VYG7J2mAad`bl^h_;2O>J]2
+!s100 ^F?G5G6SoJNdUa]RYWbJ^1
+R9
 32
-R7
+R19
 !i10b 1
-R8
-Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/DMA.vhd|
-Z46 !s107 C:/ThirdYearSecondTerm/VLSI/Project/DMA.vhd|
-!i113 1
-R11
-R12
-Adma_arch
-Z47 DEx4 work 13 nbitregisterf 0 22 ?dgMDKAeDe>cnmiJhH<6<0
-Z48 DEx4 work 13 stridecounter 0 22 ;^n2TBD?>MgGIj?4i:fn20
-R35
 R20
-R1
-R2
-Z49 DEx4 work 3 dma 0 22 bScTh7[35]oQ4CaNT;2K73
-l82
-L33
-V;n4GUa:VCI0?Wi6`R@=3j1
-!s100 ?OdzKh[e=H>>[mhV9;?7a2
-R6
-32
-R7
-!i10b 1
-R8
-R45
-R46
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/DMA.vhd|
+Z60 !s107 C:/ThirdYearSecondTerm/VLSI/Project/DMA.vhd|
 !i113 1
-R11
-R12
-Edmatestbench
-Z50 w1524088109
+R14
+R15
+Adma_arch
+Z61 DEx4 work 13 nbitregisterf 0 22 ?dgMDKAeDe>cnmiJhH<6<0
+Z62 DEx4 work 13 stridecounter 0 22 ;^n2TBD?>MgGIj?4i:fn20
+R50
 R1
-R2
-R3
-Z51 8C:/ThirdYearSecondTerm/VLSI/Project/DMATestBench.vhd
-Z52 FC:/ThirdYearSecondTerm/VLSI/Project/DMATestBench.vhd
+R4
+R5
+Z63 DEx4 work 3 dma 0 22 YG7J2mAad`bl^h_;2O>J]2
+l87
+L36
+VCYo5aQ`i]c5IWXPmH<;]V2
+!s100 ofjG7=94nR_HeGjIbPMbT0
+R9
+32
+R19
+!i10b 1
+R20
+R59
+R60
+!i113 1
+R14
+R15
+Edmatestbench
+Z64 w1524088109
+R4
+R5
+R6
+Z65 8C:/ThirdYearSecondTerm/VLSI/Project/DMATestBench.vhd
+Z66 FC:/ThirdYearSecondTerm/VLSI/Project/DMATestBench.vhd
 l0
 L4
 Vid]OLVa2kn>CL`Q?@AZP@0
 !s100 F5oQ2;9kmSoE:=?@[Lj702
-R6
+R9
 32
-Z53 !s110 1524088110
+R41
 !i10b 1
-Z54 !s108 1524088110.000000
-Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/DMATestBench.vhd|
-Z56 !s107 C:/ThirdYearSecondTerm/VLSI/Project/DMATestBench.vhd|
+Z67 !s108 1525881808.000000
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/DMATestBench.vhd|
+Z69 !s107 C:/ThirdYearSecondTerm/VLSI/Project/DMATestBench.vhd|
 !i113 1
-R11
-R12
+R14
+R15
 Admaarch
-Z57 DEx4 work 17 ramcacheinterface 0 22 9mRhA_aGj8^=CQQ0LUe1_0
-R1
-R2
-Z58 DEx4 work 12 dmatestbench 0 22 id]OLVa2kn>CL`Q?@AZP@0
+DEx4 work 17 ramcacheinterface 0 22 9mRhA_aGj8^=CQQ0LUe1_0
+R4
+R5
+DEx4 work 12 dmatestbench 0 22 id]OLVa2kn>CL`Q?@AZP@0
 l18
 L9
 V>dSiX0L<90AoLCC;c6b6S1
 !s100 WL6[M3D[f61FNzD3LNY>;3
-R6
+R9
 32
-R53
+!s110 1525859229
 !i10b 1
-R54
-R55
-R56
+!s108 1525859229.000000
+R68
+R69
 !i113 1
+R14
+R15
+Emcounter
+Z70 w1525867543
+R2
+R3
+R4
+R5
+R6
+Z71 8C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/counter.vhd
+Z72 FC:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/counter.vhd
+l0
+L5
+VYhEhfMgYLVH=5C_?O?IX23
+!s100 ZX:Td3FV<2zA_;OoGUKh:0
+R9
+32
+R10
+!i10b 1
 R11
-R12
-Enbitregister
-R0
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/counter.vhd|
+Z74 !s107 C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/counter.vhd|
+!i113 1
+R14
+R15
+Amultipliercounter
+R2
+R3
+R4
+R5
+Z75 DEx4 work 8 mcounter 0 22 YhEhfMgYLVH=5C_?O?IX23
+l29
+L27
+Z76 V65AC9Ib1bW6o;DiAHk^532
+Z77 !s100 R[TOddbl2A8NXiYPWUL8g0
+R9
+32
+R10
+!i10b 1
+R11
+R73
+R74
+!i113 1
+R14
+R15
+Emultiplier
+Z78 w1525863026
 R1
 R2
 R3
-Z59 8C:/ThirdYearSecondTerm/VLSI/Project/register.vhd
-Z60 FC:/ThirdYearSecondTerm/VLSI/Project/register.vhd
+R4
+R5
+R6
+Z79 8C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/Multiplier.vhd
+Z80 FC:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/Multiplier.vhd
+l0
+L7
+VMlUE2SJ7lWOXgIzo:Ya>A1
+!s100 0J9BSoEX_U4CJ5D]YMX>:3
+R9
+32
+R41
+!i10b 1
+R67
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/Multiplier.vhd|
+Z82 !s107 C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/Multiplier.vhd|
+!i113 1
+R14
+R15
+Amy_multiplier
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 multiplier 0 22 MlUE2SJ7lWOXgIzo:Ya>A1
+l81
+L30
+VXBU11h`ElFcI`WRk56L=53
+!s100 3MO=aWmLz1ZPT[W:mBnC20
+R9
+32
+R41
+!i10b 1
+R67
+R81
+R82
+!i113 1
+R14
+R15
+Emultipliermodule
+Z83 w1525847481
+R1
+R2
+R3
+R4
+R5
+R6
+Z84 8C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/multiplierModule.vhd
+Z85 FC:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/multiplierModule.vhd
+l0
+L6
+VzAAe`[3T404ES4Imjh7lP0
+!s100 O]<6@BQ2jE?;:aY[N2jVg0
+R9
+32
+R26
+!i10b 1
+R27
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/multiplierModule.vhd|
+Z87 !s107 C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/multiplierModule.vhd|
+!i113 1
+R14
+R15
+Amy_multiplier_module
+R1
+R2
+R3
+R4
+R5
+DEx4 work 16 multipliermodule 0 22 zAAe`[3T404ES4Imjh7lP0
+l44
+L22
+VcI@N81TTAc7a_U7AS6BIa3
+!s100 =bI8nACe6_H_I]>=bRE:m3
+R9
+32
+R26
+!i10b 1
+R27
+R86
+R87
+!i113 1
+R14
+R15
+Emux2x1
+Z88 w1525815628
+R2
+R3
+R4
+R5
+R6
+Z89 8C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/mux2X1.vhd
+Z90 FC:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/mux2X1.vhd
+l0
+L5
+VUhA?YczR[U=BU6^R9MliN0
+!s100 zXD]6HXjP93kGYRn7OR<11
+R9
+32
+R26
+!i10b 1
+R27
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/mux2X1.vhd|
+Z92 !s107 C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/mux2X1.vhd|
+!i113 1
+R14
+R15
+Amy_mux2x1
+R2
+R3
+R4
+R5
+DEx4 work 6 mux2x1 0 22 UhA?YczR[U=BU6^R9MliN0
+l16
+L15
+VABVWDYU<jfF@nHoQIefMF3
+!s100 _=0C4f65O8_0^Jcem<B:k3
+R9
+32
+R26
+!i10b 1
+R27
+R91
+R92
+!i113 1
+R14
+R15
+Emux4x1
+R88
+R2
+R3
+R4
+R5
+R6
+Z93 8C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/mux4X1.vhd
+Z94 FC:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/mux4X1.vhd
+l0
+L5
+VV3gCW;716N0KFF?^N[=GB1
+!s100 9>5USZR=[aAU]><^K7TLM3
+R9
+32
+R41
+!i10b 1
+R67
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/mux4X1.vhd|
+Z96 !s107 C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/mux4X1.vhd|
+!i113 1
+R14
+R15
+Amy_mux4x1
+R2
+R3
+R4
+R5
+DEx4 work 6 mux4x1 0 22 V3gCW;716N0KFF?^N[=GB1
+l16
+L15
+Vc^XBkFfhNICgMlMne0]WX3
+!s100 L675HcblZ@;mH=mM`^mQ13
+R9
+32
+R41
+!i10b 1
+R67
+R95
+R96
+!i113 1
+R14
+R15
+Emy_adder
+Z97 w1518877150
+R4
+R5
+R6
+Z98 8C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/my_adder.vhd
+Z99 FC:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/my_adder.vhd
+l0
+L5
+V^DJmWUaQ42UGB=Ga0bKo<1
+!s100 ZS5DnOk;Beh4Zzc>OBO:C3
+R9
+32
+R10
+!i10b 1
+R11
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/my_adder.vhd|
+Z101 !s107 C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/my_adder.vhd|
+!i113 1
+R14
+R15
+Aa_my_adder
+R4
+R5
+DEx4 work 8 my_adder 0 22 ^DJmWUaQ42UGB=Ga0bKo<1
+l14
+L12
+V3;mbbTSEO:zdTG>65@jkX1
+!s100 6Y9Y4VkBjJL0W2Wk?dY9P2
+R9
+32
+R10
+!i10b 1
+R11
+R100
+R101
+!i113 1
+R14
+R15
+Emy_nadder
+Z102 w1455609920
+R4
+R5
+R6
+Z103 8C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/my_nadder.vhd
+Z104 FC:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/my_nadder.vhd
+l0
+L5
+V=^eoWUBOSV0B=zIMj0RA11
+!s100 ANfQFSD?z@zWH_j5Co6EJ2
+R9
+32
+R26
+!i10b 1
+R27
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/my_nadder.vhd|
+Z106 !s107 C:/ThirdYearSecondTerm/VLSI/Project/VLSI_CNN_Coprocessor/my_nadder.vhd|
+!i113 1
+R14
+R15
+Aa_my_nadder
+R4
+R5
+DEx4 work 9 my_nadder 0 22 =^eoWUBOSV0B=zIMj0RA11
+l25
+L15
+VoaNTf`9jll2N]<fjWC3H;1
+!s100 =?TdZUK6<7]@>bjz4Yk1g2
+R9
+32
+R26
+!i10b 1
+R27
+R105
+R106
+!i113 1
+R14
+R15
+Enbitregister
+Z107 w1525867265
+R4
+R5
+R6
+Z108 8C:/ThirdYearSecondTerm/VLSI/Project/register.vhd
+Z109 FC:/ThirdYearSecondTerm/VLSI/Project/register.vhd
 l0
 L4
 V7ajjWMKL2IQJ;YgCCB2<Z2
 !s100 EEThZ6J92o=GZ@@<7[lj22
-R6
+R9
 32
-R38
+R53
 !i10b 1
-R8
-Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/register.vhd|
-Z62 !s107 C:/ThirdYearSecondTerm/VLSI/Project/register.vhd|
+R20
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/register.vhd|
+Z111 !s107 C:/ThirdYearSecondTerm/VLSI/Project/register.vhd|
 !i113 1
-R11
-R12
+R14
+R15
 Anbitregister_architecture
-R1
-R2
-R18
+R4
+R5
+R35
 l16
 L15
-V<W6=g1gzW>M@ZM;>1MmOh0
-!s100 TjCk_k?7SfF55I6b:KbCC3
-R6
+V_]`Be4bTBSeQmIGcI8:oR3
+!s100 nI@61NJH?_=PjWI:[m?Y;3
+R9
 32
-R38
+R53
 !i10b 1
-R8
-R61
-R62
+R20
+R110
+R111
 !i113 1
-R11
-R12
+R14
+R15
 Enbitregisterf
-Z63 w1524076536
-R1
-R2
-R3
-Z64 8C:/ThirdYearSecondTerm/VLSI/Project/registerf.vhd
-Z65 FC:/ThirdYearSecondTerm/VLSI/Project/registerf.vhd
+Z112 w1525867156
+R4
+R5
+R6
+Z113 8C:/ThirdYearSecondTerm/VLSI/Project/registerf.vhd
+Z114 FC:/ThirdYearSecondTerm/VLSI/Project/registerf.vhd
 l0
 L4
 V?dgMDKAeDe>cnmiJhH<6<0
 !s100 0][<9UWkFc^^gJERU[]fj2
-R6
+R9
 32
-R25
+R41
 !i10b 1
-R26
-Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/registerf.vhd|
-Z67 !s107 C:/ThirdYearSecondTerm/VLSI/Project/registerf.vhd|
+R67
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/registerf.vhd|
+Z116 !s107 C:/ThirdYearSecondTerm/VLSI/Project/registerf.vhd|
 !i113 1
-R11
-R12
+R14
+R15
 Anbitregister_architecture
-R1
-R2
-R47
+R4
+R5
+R61
 l16
 L15
-VAMjbJZInP>YKf]OazJY790
-!s100 5hWAX`iBFJ^HD;4>iABA?2
-R6
+VTP4mzgoIbnIg7A@dJ;aea3
+!s100 8dZVJVeY4DL?ZOo9D=?TX0
+R9
 32
-R25
+R41
 !i10b 1
-R26
-R66
 R67
+R115
+R116
 !i113 1
-R11
-R12
+R14
+R15
 Eram
-Z68 w1523096430
-R20
+Z117 w1525878051
 R1
-R2
-R3
-Z69 8C:/ThirdYearSecondTerm/VLSI/Project/ram.vhd
-Z70 FC:/ThirdYearSecondTerm/VLSI/Project/ram.vhd
+R4
+R5
+R6
+Z118 8C:/ThirdYearSecondTerm/VLSI/Project/ram.vhd
+Z119 FC:/ThirdYearSecondTerm/VLSI/Project/ram.vhd
 l0
 L5
 V7B:CKDMnkAb@T1`X0N3_f2
 !s100 fmbom4W`e;2EZ7Va5Xd0V1
-R6
+R9
 32
-R38
+R53
 !i10b 1
-R39
-Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/ram.vhd|
-Z72 !s107 C:/ThirdYearSecondTerm/VLSI/Project/ram.vhd|
+R42
+Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/ram.vhd|
+Z121 !s107 C:/ThirdYearSecondTerm/VLSI/Project/ram.vhd|
 !i113 1
-R11
-R12
+R14
+R15
 Asyncrama
-R20
 R1
-R2
-Z73 DEx4 work 3 ram 0 22 7B:CKDMnkAb@T1`X0N3_f2
+R4
+R5
+DEx4 work 3 ram 0 22 7B:CKDMnkAb@T1`X0N3_f2
 l21
 L14
 VN6=@e;3_fEF@^j^:HkU0o2
 !s100 cjU^[[>]C?TOhkMg:4_YT0
-R6
+R9
 32
-R38
+R53
 !i10b 1
-R39
-R71
-R72
+R42
+R120
+R121
 !i113 1
-R11
-R12
+R14
+R15
 Eramcacheinterface
-Z74 w1524082951
-R1
-R2
-R3
-Z75 8C:/ThirdYearSecondTerm/VLSI/Project/RamCacheInterface.vhd
-Z76 FC:/ThirdYearSecondTerm/VLSI/Project/RamCacheInterface.vhd
+Z122 w1525868237
+R4
+R5
+R6
+Z123 8C:/ThirdYearSecondTerm/VLSI/Project/RamCacheInterface.vhd
+Z124 FC:/ThirdYearSecondTerm/VLSI/Project/RamCacheInterface.vhd
 l0
 L4
-V9mRhA_aGj8^=CQQ0LUe1_0
-!s100 IUgiRX1L]59]9GXOAA]YK0
-R6
+V<2REo<bC=O8ijG2m5lo=<2
+!s100 MX]];l5mo>N4>JX5Ld0M:0
+R9
 32
-R38
+R53
 !i10b 1
-R39
-Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/RamCacheInterface.vhd|
-Z78 !s107 C:/ThirdYearSecondTerm/VLSI/Project/RamCacheInterface.vhd|
+R42
+Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/RamCacheInterface.vhd|
+Z126 !s107 C:/ThirdYearSecondTerm/VLSI/Project/RamCacheInterface.vhd|
 !i113 1
-R11
-R12
+R14
+R15
 Aramcacheinterfacearch
-R29
-R73
-R20
-R49
 R1
-R2
-R57
-l58
-L42
-VS0i]Wl4P;NSY1n>SCY`;71
-!s100 oQ50cECem]i[:`1OPjQfW2
-R6
+R63
+R4
+R5
+DEx4 work 17 ramcacheinterface 0 22 <2REo<bC=O8ijG2m5lo=<2
+l135
+L23
+VBk5Gb=WS2H5g^ke:BU77B2
+!s100 jRNQ9`SdUmH;HC1ZJ[z4k0
+R9
 32
-R38
+R53
 !i10b 1
-R39
-R77
-R78
+R42
+R125
+R126
 !i113 1
-R11
-R12
+R14
+R15
 Eregisterblock
-Z79 w1523094120
-R1
-R2
-R3
-Z80 8C:/ThirdYearSecondTerm/VLSI/Project/RegisterBlock.vhd
-Z81 FC:/ThirdYearSecondTerm/VLSI/Project/RegisterBlock.vhd
+Z127 w1523094120
+R4
+R5
+R6
+Z128 8C:/ThirdYearSecondTerm/VLSI/Project/RegisterBlock.vhd
+Z129 FC:/ThirdYearSecondTerm/VLSI/Project/RegisterBlock.vhd
 l0
 L4
 V^CVhPaPn`mcJO[z]L5_f[3
 !s100 GP7X>YEkUNn8S8zbVVX5h2
-R6
+R9
 32
-R38
+R53
 !i10b 1
-R39
-Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/RegisterBlock.vhd|
-Z83 !s107 C:/ThirdYearSecondTerm/VLSI/Project/RegisterBlock.vhd|
+R42
+Z130 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/RegisterBlock.vhd|
+Z131 !s107 C:/ThirdYearSecondTerm/VLSI/Project/RegisterBlock.vhd|
 !i113 1
-R11
-R12
+R14
+R15
 Aregisterblock_arch
-R18
-R1
-R2
-R19
+R35
+R4
+R5
+R36
 l18
 L16
 Vg6Imi@J2TFz4M2`=7TcSD1
 !s100 lzIe[2AX83ElO526dE@oM1
-R6
+R9
 32
-R38
+R53
 !i10b 1
-R39
-R82
-R83
+R42
+R130
+R131
 !i113 1
-R11
-R12
+R14
+R15
 Estridecounter
-Z84 w1523989327
-R20
+Z132 w1523989327
 R1
-R2
-R3
-Z85 8C:/ThirdYearSecondTerm/VLSI/Project/StrideCounter.vhd
-Z86 FC:/ThirdYearSecondTerm/VLSI/Project/StrideCounter.vhd
+R4
+R5
+R6
+Z133 8C:/ThirdYearSecondTerm/VLSI/Project/StrideCounter.vhd
+Z134 FC:/ThirdYearSecondTerm/VLSI/Project/StrideCounter.vhd
 l0
 L7
 V;^n2TBD?>MgGIj?4i:fn20
 !s100 9^bOSemn`YNFE2ka<@AXK3
-R6
+R9
 32
-R25
+R53
 !i10b 1
-R39
-Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/StrideCounter.vhd|
-Z88 !s107 C:/ThirdYearSecondTerm/VLSI/Project/StrideCounter.vhd|
+R42
+Z135 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ThirdYearSecondTerm/VLSI/Project/StrideCounter.vhd|
+Z136 !s107 C:/ThirdYearSecondTerm/VLSI/Project/StrideCounter.vhd|
 !i113 1
-R11
-R12
+R14
+R15
 Acounterarch
-R20
 R1
-R2
-R48
+R4
+R5
+R62
 l30
 L27
 V:zN?R=`lAm1M3Qf532<X[3
 !s100 LV49O?>kXbUXYME72<lG41
-R6
+R9
 32
-R25
+R53
 !i10b 1
-R39
-R87
-R88
+R42
+R135
+R136
 !i113 1
-R11
-R12
+R14
+R15

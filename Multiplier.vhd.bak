@@ -88,7 +88,6 @@ A<=A1;
 S<=S1;
 dffEn<='1' ;
 resultN<=(others=>'0');
-endN<='0';
 ELSIF (counterOut="111")THEN
 c<='1';
 endN<='1';
@@ -99,7 +98,6 @@ c<='1';
 P<=dffOut;
 dffEn<='1' ;
 resultN<=(others=>'0');
-endN<='0';
 END IF;
 
 

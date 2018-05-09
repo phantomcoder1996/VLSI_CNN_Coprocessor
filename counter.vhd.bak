@@ -44,7 +44,7 @@ ARCHITECTURE multiplierCounter OF mCounter IS
   IF(rstSig = '1') THEN 
   counter<=(others => '0');
   output<=counter;
-  ELSIF (rising_edge(clk)) THEN 
+  ELSIF ( AND rising_edge(clk)) THEN 
    	if(en = '1') then
   	counter<=counter+1;
   	output<=counter;

@@ -16,7 +16,8 @@ ENTITY multiplierModule IS
         resultN:OUT std_logic_vector(n-1 downto 0);
         endN:OUT std_logic
   );
-
+  SIGNAL P,A,S: std_logic_vector(2*n downto 0):=(others=>'0');
+  SIGNAL temp,M3 :std_logic_vector(n-1 downto 0);
 END ENTITY;
 
 ARCHITECTURE my_multiplier_module OF multiplierModule IS 
@@ -35,12 +36,6 @@ COMPONENT multiplier IS
         
       );
     END COMPONENT;
-
-
-
-  SIGNAL P,A,S: std_logic_vector(2*n downto 0):=(others=>'0');
-  SIGNAL temp,M3 :std_logic_vector(n-1 downto 0);
-
 BEGIN 
 --- calculate start value of A ---
 --- A=[M1] [000s]
